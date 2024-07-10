@@ -1,4 +1,4 @@
-<?php include 'layouts/header.php'; ?>
+<?php include 'view/layouts/header.php'; ?>
 <main class="">
     <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
         <img src="./images/beams.jpg" alt="" class="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" width="1308" />
@@ -10,7 +10,7 @@
                     <div class="space-y-6 py-8 text-base leading-7 text-gray-600 px-12">
                         <h2>A better way to get anonymous feedback!</h2>
                         <div class="flex justify-center">
-                            <img class="max-h-72" src="./images/letter.png" alt="">
+                            <img class="max-h-72" src="./public/images/letter.png" alt="">
                         </div>
                     </div>
                     <div class="pt-8 text-base font-semibold leading-7">
@@ -25,4 +25,4 @@
     </div>
 </main>
 
-<?php include 'layouts/footer.php'; ?>
+<?php include 'view/layouts/footer.php'; ?>
